@@ -1,13 +1,17 @@
 .container{
-  background-image: url(milekCV.jpg);
+  background-image: url(backgroundCV.jpg);
   background-size: cover;  
   height: 1756px;
   width: 1240px;
   font-family: 'Open Sans', sans-serif;
 }
 
+.img-circle {
+position: absolute;
+margin: 70px 100px 100px 90px;
+}
 .section-info .col-md-2 {
-  padding: 0px 0px 0px 30px;
+  padding: 0px 0px 0px 10px;
 }
 
 .section-picture {
@@ -16,11 +20,11 @@
 
 .section-address1 li {
   font-weight: bold;
-  padding: 0px 0px 25px 45px;
+  padding: 0px 0px 25px 60px;
 }
 
 .section-address1 .address {
-  padding: 0px 0px 70px 45px;
+  padding: 0px 0px 70px 60px;
 }
 
 .section-address2 li {
