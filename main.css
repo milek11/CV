@@ -21,11 +21,11 @@ margin: 70px 100px 100px 90px;
 
 .section-address1 li {
   font-weight: bold;
-  padding: 0px 0px 30px 60px;
+  padding: 0px 0px 30px 70px;
 }
 
 .section-address1 .address {
-  padding: 0px 0px 80px 60px;
+  padding: 0px 0px 80px 70px;
 }
 
 .section-address2 li {
@@ -43,7 +43,7 @@ h3 {
 }
 
 .edu-box {
-  margin-left: 60px;
+  margin-left: 70px;
 }
 
 .h3-edu {
@@ -52,9 +52,13 @@ h3 {
   letter-spacing: 3px;
 }
 
+.ll {
+  padding: 30px 70px 20px 15px;
+}
+
 h5 {
   font-weight: bold;
-  margin: 30px 0px;
+  margin: 35px 0px 20px;
   letter-spacing: 1px;
 }
 
@@ -64,12 +68,12 @@ h5 {
 }
 
 .skills-list {
-  padding: 30px 70px 30px 100px;
+  padding: 30px 70px 30px 120px;
   text-align: justify;
 }
 
 .project-list {
-  padding: 30px 70px 30px 100px;
+  padding: 30px 70px 30px 120px;
   text-align: justify;
 }
 
