@@ -12,7 +12,6 @@ box-sizing: border-box;
 .container{
   background-image: url(backgroundCV.jpg);
   background-size: contain;  
-<<<<<<< HEAD
   height: 1700px;
   width: 1240px;
   font-family: 'Open Sans', sans-serif;
