@@ -1,0 +1,89 @@
+
+/*html {  
+  box-sizing: border-box; 
+}
+*, *:before, *:after { 
+  box-sizing: inherit; 
+    -moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}*/
+
+.container{
+  background-image: url(backgroundCV.jpg);
+  background-size: contain;  
+  height: 1600px;
+  width: 1240px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.img-circle {
+position: absolute;
+margin: 70px 100px 100px 90px;
+}
+.section-info .col-md-2 {
+  padding: 0px 0px 0px 10px;
+}
+
+.section-picture {
+  height: 24%;
+}
+
+.section-address1 li {
+  font-weight: bold;
+  padding: 0px 0px 30px 70px;
+}
+
+.section-address1 .address {
+  padding: 0px 0px 76px 70px;
+}
+
+.section-address2 li {
+  padding: 15px 0px 15px 0px;
+}
+
+.section-address2 .address {
+  padding: 0px 0px 20px 0px;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 0px 100px ;
+  letter-spacing: 2px;
+}
+
+.edu-box {
+  margin-left: 70px;
+}
+
+.h3-edu {
+  font-weight: bold;
+  margin: 0px;
+  letter-spacing: 3px;
+}
+
+.ll {
+  padding: 30px 70px 20px 15px;
+}
+
+h5 {
+  font-weight: bold;
+  margin: 35px 0px 20px;
+  letter-spacing: 1px;
+}
+
+.intro-text {
+  margin: 30px 70px 50px 100px;
+  text-align: justify; 
+}
+
+.skills-list {
+  padding: 30px 70px 30px 120px;
+  text-align: justify;
+}
+
+.project-list {
+  padding: 30px 70px 30px 120px;
+  text-align: justify;
+}
