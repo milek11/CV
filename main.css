@@ -51,6 +51,10 @@ margin: 70px 100px 100px 90px;
   padding: 0px 0px 20px 0px;
 }
 
+.link {
+  font-size: 16px;
+}
+
 h3 {
   font-weight: bold;
   margin: 0px 100px ;
@@ -90,4 +94,8 @@ h4 {
 .project-list {
   padding: 30px 70px 30px 120px;
   text-align: justify;
+}
+
+.img-hobby {
+ margin: 30px 0px 0px 100px;
 }
