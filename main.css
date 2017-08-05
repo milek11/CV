@@ -34,6 +34,14 @@ margin: 70px 100px 100px 90px;
   height: 24%;
 }
 
+.img-pdf {
+ width: 90px;
+}
+
+.img-pdf:hover {
+ width: 110px;
+}
+
 .section-address1 li {
   font-weight: bold;
   padding: 0px 0px 30px 80px;
