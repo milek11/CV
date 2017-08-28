@@ -1,4 +1,8 @@
 
+.back{
+  box-shadow: -70px 40px 35px 0px rgba(110,110,110,1);
+}
+
 html {  
   box-sizing: border-box; 
 }
@@ -9,25 +13,69 @@ html {
 box-sizing: border-box;
 }
 
+body {
+    background-image: url("https://sdm.scad.edu/faculty/mkesson/vsfx705/wip/best/fall09/stephen_withers/particlecache/Curves02.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
 .container{
-  background-image: url(backgroundCV.jpg);
+
+background: #01356E;
+background: -moz-linear-gradient(-45deg, #01356E 0%, #01356E 40%, rgba(2,173,203,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, #01356E, color-stop(40%, #01356E, color-stop(100%, rgba(2,173,203,1))))));
+background: -webkit-linear-gradient(-45deg, #01356E 0%, #01356E 40%, rgba(2,173,203,1) 100%);
+background: -o-linear-gradient(-45deg, #01356E 0%, #01356E 40%, rgba(2,173,203,1) 100%);
+background: -ms-linear-gradient(-45deg, #01356E 0%, #01356E 40%, rgba(2,173,203,1) 100%);
+background: linear-gradient(135deg, #01356E 0%, #01356E 40%, rgba(2,173,203,1) 100%);
   background-size: cover;  
-  height: 1756px;
-  width: 1240px;
+  height: 1450px;
+  width: 1024px;
+z-index: 1;
+}
+
+
+.cv {
+  margin-top: 17px;
+  background: #ffffff;
+  
+  height: 1416px;
+  width: 990px;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+
+  border: solid;
+  border-color: #CEE0F6;
+  z-index: 2;
 }
+
+.circle {
+    position: absolute;
+    width:18px;
+    height:18px;
+    border-radius:9px;
+    background-color: #074494;
+    z-index: 3;
+}
+
+.blue1 {
+  margin: 412px 0px 0px 413px;
+}
+.blue2 {
+  margin: 622px 0px 0px 413px;
+}
+.blue3 {
+  margin: 952px 0px 0px 413px;
+}
+.blue4 {
+  margin: 1532px 0px 0px 413px;
+}
+
 
 .img-circle {
+  height: 248px;
 position: absolute;
-margin: 70px 100px 100px 90px;
-}
-.section-info .col-md-4 {
-  padding: 0px;
-}
-
-.section-info .col-md-2 {
-  padding: 0px;
+margin: 50px 0px 0px 50px;
 }
 
 .section-picture {
@@ -35,6 +83,9 @@ margin: 70px 100px 100px 90px;
 }
 
 .img-pdf {
+   position: absolute;
+    top: 8px;
+    right: 250px;
  width: 90px;
 }
 
@@ -42,6 +93,25 @@ margin: 70px 100px 100px 90px;
  width: 110px;
 }
 
+.section-right {
+  margin-top: 124px;
+}
+.name {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 105px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.job {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+  color: #2198DA;
+  font-size: 24px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  margin-top: 40px;
+}
 .section-address1 li {
   font-weight: bold;
   padding: 0px 0px 30px 80px;
@@ -52,11 +122,11 @@ margin: 70px 100px 100px 90px;
 }
 
 .section-address2 li {
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 80px;
 }
 
 .section-address2 .address {
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 20px 80px;
 }
 
 .link {
@@ -89,9 +159,31 @@ h4 {
   letter-spacing: 1px;
 }
 
+.section-info .col-md-4 {
+  padding: 0px;
+}
+
+.col-md-8 {
+  padding: 0px;
+}
 .intro-text {
   margin: 30px 70px 50px 100px;
   text-align: justify; 
+}
+
+.section-skills {
+  margin: 0px -35px 0px 35px; 
+    border-bottom: solid transparent;
+   border-left: solid; 
+   border-width: 4px;
+
+  -moz-border-image: -moz-linear-gradient(top, #043F8D 0%, #4D74AD 25%, rgba(255,255,255,1)) 1 0 0 100%;
+  -webkit-border-image: -webkit-gradient(left top, left bottom, color-stop(0%, #043F8D, color-stop(25%, #4D74AD, color-stop(100%, rgba(255,255,255,1)))));
+  -webkit-border-image: -webkit-linear-gradient(top, #043F8D 0%, #4D74AD 25%, rgba(255,255,255,1)) 1 0 0 100%;
+  -o-border-image: -o-linear-gradient(top, #043F8D 0%, #4D74AD 25%, rgba(255,255,255,1)) 1 0 0 100%;
+  -ms-border-image: -ms-linear-gradient(top, #043F8D 0%, #4D74AD 25%, rgba(255,255,255,1)) 1 0 0 100%;
+  border-image: linear-gradient(to bottom, #043F8D 0%, #4D74AD 25%, rgba(255,255,255,1)) 1 0 0 100%;
+
 }
 
 .skills-list {
