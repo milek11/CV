@@ -1,8 +1,32 @@
 
-.back{
+
+.img-pdf {
+    position: absolute;
+    top: 0px;
+    right: 370px;
+    width: 70px;
+    height: auto;
+}
+
+.img-pdf:hover {
+ width: 100px;
+}
+
+/*.back{
   margin: 70px auto;
   box-shadow: -70px 40px 35px 0px rgba(110,110,110,1);
 }
+
+body {
+    background-image: url("backgroundCV.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}*/
+
+/*above add to comment when creating pdf filefrom: 
+http://www.html-to-pdf.net/free-online-pdf-converter.aspx
+----------------------------------------------------------*/
 
 html {  
   box-sizing: border-box; 
@@ -14,12 +38,6 @@ html {
 box-sizing: border-box;
 }
 
-body {
-    background-image: url("backgroundCV.jpg");
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center; 
-}
 .container{
 
   background: #01356E;
@@ -77,27 +95,16 @@ body {
 .img-circle {
   height: 240px;
   position: absolute;
-  margin: 50px 0px 0px 50px;
+  margin: 40px 0px 0px 50px;
 }
 
 .section-picture {
   height: 24%;
 }
 
-.img-pdf {
-    position: absolute;
-    top: 0px;
-    right: 370px;
-    width: 70px;
-    height: auto;
-}
-
-.img-pdf:hover {
- width: 100px;
-}
 
 .section-right {
-  margin-top: 80px;
+  margin-top: 75px;
 }
 .name {
   font-family: 'Alegreya Sans', sans-serif;
